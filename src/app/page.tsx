@@ -1,9 +1,13 @@
 import Image from "next/image";
+import LinkButton from "@/app/components/linkButton";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h2>APLICACION DE ACTIVOS FIJOS</h2>
-    </main>
+    <div className="header flex items-center">
+      <h2 className="mr-4">Activos fijos</h2>
+      <LinkButton name="Inventarios" route="/inventories" />
+      <LinkButton name="Assets" route="/assets" />
+
+    </div>
   );
 }
