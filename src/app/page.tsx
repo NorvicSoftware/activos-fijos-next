@@ -7,6 +7,7 @@ export default function Home() {
       <h2 className="mr-4">Activos fijos</h2>
       <LinkButton name="Inventarios" route="/inventories" />
       <LinkButton name="Assets" route="/assets" />
+      <LinkButton name="Repairs" route="/repairs" />
 
     </div>
   );
